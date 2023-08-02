@@ -168,8 +168,8 @@ nav ul li a:hover::after {
     background: #ff004f;
     transform: translate(-10px);
 }
-/*------portfolio-------*/
-#portfolio {
+/*------profolio-------*/
+#profolio {
     padding: 50px 0;
 }
 .work-list {

@@ -32,7 +32,7 @@ contactForm.addEventListener("submit", function(event) {
     const message = event.target.Message.value;
 
     const subject = "New Message from " + name;
-    const mailtoLink = "mailto:21cse058tamilselvan@gmail.com" +
+    const mailtoLink = "mailto:cseboomika@gmail.com" +
                       "?subject=" + encodeURIComponent(subject) +
                       "&body=" + encodeURIComponent(message);
 

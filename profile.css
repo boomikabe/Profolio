@@ -353,6 +353,10 @@ form .btn2{
     font-weight: 300;
     margin-top: 20px;
 }
+.contact-left a{
+    color: white;
+    text-decoration:none ;
+}
 /* ---------------------css for media -------------------- */
 nav .fas{
     display: none;

@@ -183,13 +183,16 @@
                     <a href="Boomika Resume.docx" class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form name="submit-to-google-sheet">
+                    <form id="contact-form">
                         <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Name" placeholder="Your Email" required>
-                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" style="margin-left: 20px" class="btn btn2">Submit</button>
                     </form>
-                    <span id="msg"></span>
+                </div>
+                <div id="notification" class="notification">
+                    <span id="notification-message">Message Sent Successfully!</span>
+                    <button id="close-notification"><i class="fa-regular fa-circle-xmark" style="color: #ffffff;"></i></button>
                 </div>
             </div>
         </div>
